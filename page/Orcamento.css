@@ -13,7 +13,7 @@ header{
 .contentOrcamento{
     display: flex;
     justify-content: space-around;
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     background-color: aquamarine;
 }
@@ -25,7 +25,7 @@ header{
     width: 25%;
     height: 100%;
     text-align: justify;
-    font-size: 20px;
+    font-size: 15px;
     background-color: blueviolet;
 }
 
@@ -42,4 +42,25 @@ header{
 .contentOrcamento4{
     width: 25%;
     background-color: cyan;
+}
+
+.contentOrcamentoInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(99, 222, 101);
+}
+
+.contentOrcamentoInfo h1{
+    font-size: 20px;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+
+.contentOrcamentoInfo p{
+    font-size: 15px;
+    width: 90%;
+    background-color: aqua;
 }
