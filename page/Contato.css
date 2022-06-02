@@ -1,0 +1,59 @@
+:root {
+    --green-one: #0b582c;
+    --green-two:#1fbf76;
+    --green-tree:#92f075;
+    --grey:#f7f8f8;
+    --blacks:#1d262b;
+    --purple:#180f55;
+  }
+
+body{
+    overflow-y: hidden;
+    background-color: #eaeceb;
+}
+
+html{
+    height: 100vh;
+}
+
+.containerContato{
+    background-color: #0b582c;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #0b582c;
+    padding: 20px 0;
+    background:linear-gradient(45deg,#1fbf76, #92f075);
+}
+
+header span{
+    height: 50px;
+    border-right: 8px solid rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+header p{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.containerContatoContatos{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60vh;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(207, 209, 209);
+}
+
+
+.containerContatoContatosRede img{
+    height: 30px;
+}
