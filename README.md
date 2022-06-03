@@ -9,7 +9,7 @@ O objetivo do projeto foi recriar a interface do site da <b>XPTOcompany</b> util
 
 Layout do projeto
 !Prévia da Imagem
-Previaweb.PNG
+previaweb.PNG
 
 Tecnologias utilizadas
 HTML
