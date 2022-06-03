@@ -80,7 +80,7 @@ nav ul li a span{
     display: flex;
     justify-content:center;
     align-items: center;
-    height:100vh;
+    height:90vh;
     width: 100%;
 }
 
@@ -135,11 +135,11 @@ nav ul li a span{
 /*lado direito pagina*/
 .contentIndex2{
     display: flex;
-    justify-content: start;
+    justify-content: space-evenly;
     flex-direction: column;
     width: 40%;
     height: 100%;
-    background-color:rgba(190, 196, 103, 0.5);
+    background-color:#1fbf76;
 }
 
 .contentIndex2Title{
@@ -163,11 +163,19 @@ nav ul li a span{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    width: 90%;
+    width: 100%;
     height: 10%;
     margin: 15px 0;
-    border-top: 1px solid rgb(255, 255, 255,0.8);
-    border-bottom: 1px solid rgb(255, 255, 255,0.8);
+}
+
+.LineContentIndex2{
+    display: flex;
+    justify-content: center;
+}
+
+.line1{
+    width: 80%;
+    border: 1px solid rgb(212, 212, 212);
 }
 
 .contentIndex2Cards div{
@@ -180,6 +188,14 @@ nav ul li a span{
     height: 80%;
     margin: 0 10px ;
     border-radius: 10px;
+}
+
+.contentIndex2Cards div .contentIndex2CardsIcon{
+    height: 100%;
+}
+
+.contentIndex2Cards div .contentIndex2CardsIcon img{
+    height: 30%;
 }
 
 .contentIndex2msg{
@@ -236,6 +252,53 @@ nav ul li a span{
     text-align: center;
     font-size: 15px;
     font-weight: 600;
-    padding:20px;
-    background-color:var(--green-two)
+    padding:30px;
+    margin-bottom: 40px;
+    background-color:#40d492;
 }
+
+/*tablet*/
+@media(min-width:768px) and (max-width:1060px){
+    body{
+        background-color: yellow;
+    }
+
+    .contentIndex2Cards{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+        height: 10%;
+        margin: 5px 0;
+    }
+
+    .contentIndex2Cards div{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: var(--grey);
+        font-weight: 600;
+        font-size: 10px;
+        height: 80%;
+        margin: 0 10px ;
+        border-radius: 10px;
+    }
+
+    .contentIndex2msgDuvida p{
+        width: 85%;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        padding:20px;
+        margin-bottom: 40px;
+        background-color:#40d492;
+    }
+
+    .contentIndex2msgDuvida{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+

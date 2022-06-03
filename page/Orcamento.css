@@ -96,10 +96,11 @@ select{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px 0;
+    margin: 3px 0;
     background-color:var(--grey);
     border:1px solid rgb(5, 0, 0,0.4);
     border-radius: 10px;
+    font-size: 1px;
 }
 
 .OrcamentoCardsCardIcon{
@@ -117,8 +118,8 @@ select{
 }
 
 .contentOrcamentoCardPriceIcon{
-    height: 18%;
-    padding: 4px;
+    height: 15%;
+    padding: 5px;
 }
 
 .contentOrcamentoCardPriceIconContent{
@@ -128,6 +129,19 @@ select{
     height: 95%;
     border-radius: 30px;
     background-color:#e4e4e4;
+}
+
+.contentOrcamentoCardPriceIconContentIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+
+.contentOrcamentoCardPriceIconContentIcon img{
+    height: 50%;
+    width: 40%;
 }
 
 .contentOrcamentoCardPriceIconContentPriceMsg{
@@ -208,4 +222,86 @@ select{
     background:linear-gradient(45deg,#129b4d,#1fbf76, #92f075 );
     border: none;
     border-radius: 10px;
+}
+
+/*TABLET*/
+
+@media(max-width:1200px){
+
+    .contentOrcamentoCardsCard h1{
+        font-size: 20px;
+    }
+
+    .OrcamentoCardsCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2px 0;
+        background-color:var(--grey);
+        border:1px solid rgb(5, 0, 0,0.4);
+        border-radius: 10px;
+    }
+
+    .OrcamentoCardsCardTxt{
+        text-indent: 60px;
+        font-size: 8px;
+        margin: 5px;
+    }
+
+    .contentOrcamentoCardPriceIcon{
+        height: 10%;
+        padding: 1px;
+    }
+
+    .contentOrcamentoCardPriceIconContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 5px 0;
+        border-radius: 30px;
+        background-color:#e4e4e4;
+    }
+
+    .contentOrcamentoCardPriceIconContentPriceMsg p{
+        font-size: 15px;
+    }
+}
+
+/*tablet*/
+@media(min-width:480px) and (max-width:768px){
+    header h1{/*descartar*/
+        color: rgb(157, 255, 0);
+        font-size: 25px;
+    }
+
+    .contentOrcamentoCardsCard h1{
+        font-size: 10px;
+    }
+
+    .OrcamentoCardsCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2px 0;
+        background-color:var(--grey);
+        border:1px solid rgb(5, 0, 0,0.4);
+        border-radius: 10px;
+    }
+
+    .OrcamentoCardsCardTxt{
+        text-indent: 60px;
+        font-size: 7px;
+        margin: 5px;
+    }
+
+    .contentOrcamentoCardPriceIcon{
+        height: 9%;
+        padding: 1px;
+    }
+
+    .contentOrcamentoCardPriceIconContentPriceMsg p{
+        font-size: 10px;
+        font: 800;
+    }
 }

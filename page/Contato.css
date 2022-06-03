@@ -8,7 +8,6 @@
   }
 
 body{
-    overflow-y: hidden;
     background-color: #eaeceb;
 }
 
@@ -17,7 +16,7 @@ html{
 }
 
 .containerContato{
-    background-color: #0b582c;
+    background-color: #2a362f;
 }
 
 header{
@@ -45,15 +44,180 @@ header p{
 
 .containerContatoContatos{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 60vh;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
     padding: 10px;
     background-color: rgb(207, 209, 209);
 }
 
+.containerContatoContatosRede{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.containerContatoRedeEndereco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 50px;
+}
+
+.containerContatoRedeEndereco1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.containerContatoRedeEndereco2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+.containerContatoContatosRedeInfo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    width: 80%;
+    height: 50px;
+}
+
+.containerContatoContatosRedeInfop{
+    width: 30%;
+}
+
+.containerContatoContatosRedeInfo p{
+    display: flex;
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+.containerContatoContatosRedeInfoImg{
+    height: 100%;
+    width: 5%;
+    background-color: none;
+}
 
 .containerContatoContatosRede img{
-    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+
+.Redewhite{
+    background-color: white;
+}
+
+.Iconwhite{
+    background-color: white;
+}
+
+.RedeGray .Icongray{
+    background-color: #d7d8d8;
+}
+
+.notUnderline p{
+    text-decoration: none;
+}
+
+.footerContato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    background-color: var(--green-one);
+}
+
+.footerContatoEmpresas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    border-radius: 1px 1px 30px 30px;
+    background-color: #1fbf76;
+}
+
+.footerContatoEmpresas1, 
+.footerContatoEmpresas2, 
+.footerContatoEmpresas3, 
+.footerContatoEmpresas4{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+}
+
+.footerContatoEmpresas1 img{
+    margin-top: 30px;
+    height: 20%;
+}
+
+.footerContatoEmpresas1 span{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.footerContatoEmpresas2, 
+.footerContatoEmpresas3, 
+.footerContatoEmpresas4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    color: white;
+}
+
+.footerContatoEmpresas5{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40%;
+    height: 80%;
+    color: white;
+}
+
+.footerContatoEmpresas5Icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center ;
+    width: 90%;
+    height: 30%;
+    margin-top: 20px;
+}
+
+.footerContatoEmpresas5Icons img{
+    height: 60%;
+    margin-right: 30px;
+    color: #f9fcfa;
+    background-color: white;
+}
+
+.footerContatoMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    color: white;
+    font-size: 10px;
 }
